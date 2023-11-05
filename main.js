@@ -23,7 +23,7 @@ var swiper = new Swiper(".mySwiper", {
   var nav = document.querySelector(".dropdown-menu");
 
   menu.addEventListener("click",function(){
-    nav.style.top = "10%";
+    nav.style.top = "0%";
   })
 
   cross.addEventListener("click", function(){
