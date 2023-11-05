@@ -1,0 +1,876 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x:hidden;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+
+    width: 100%;
+    height: 7vh;
+    background-color:#333;
+}
+
+.navbar a {
+    color: #f7f1f1;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.navbar i{
+    color: #f7f1f1;
+    font-size: 1rem;
+}
+
+/*Label*/
+.label{
+    width: 100%;
+    height:8vh;
+    background-color: rgba(28,39,57,255);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label p {
+    color: #f7f1f1;
+    font-size: 1rem;
+}
+
+.label a{
+    color: orange;
+    text-decoration: none;
+}
+
+.label a span:hover{
+    text-decoration: underline;
+}
+
+
+/*Hero Section*/
+.hero {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background-image: url(image/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+.hero-text-1 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+
+    position: absolute;
+    top: 7vh;
+}
+.hero-text-1 h1{
+    color:white ;
+    font-size:3.2rem ;
+}
+
+.hero-text-1 p {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.link{
+    display: flex;
+    gap: 2vw;
+    margin-top: 2vh;
+}
+
+.link a{
+    color: rgb(9, 121, 165);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+.link a span:hover{
+    text-decoration: underline;
+}
+
+/*Hero-2*/
+.hero-2{
+        position: relative;
+        width: 100%;
+        height: 93vh;
+        background-image: url(image/hero_iphone15_announce__uuemlcwczn6u_medium.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:1vh 0 ;
+}
+
+.hero-text-2 h1{
+    color: #333;
+    font-size: 3.3rem;
+}
+
+.hero-text-2 p{
+    color: #333;
+    font-size: 1.6rem;
+}
+
+/*slide */
+
+.slide{
+    display:flex;
+    width: 100%;
+    height: 88vh;
+}
+
+/*slide-ipad*/
+.slide-ipad {
+    width: 50%;
+    height: 88vh;
+    background-image: url(image/promo_ipad__fioegapg12qi_large_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5rem;
+    
+}
+
+
+
+.slide-ipad-text p{
+    color: #333;
+}
+
+.slide-ipad-text h1 {
+    color: #333;
+}
+
+/*slide-watch*/
+.slide-watch {
+    width: 50%;
+    height: 88vh;
+    background-image: url(image/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5rem;
+    
+}
+
+.slide-watch-text img {
+    width: 14vw;
+}
+
+.slide-watch-text p{
+    font-size: 1.3rem;
+}
+
+/*slide-2*/
+
+.slide-2{
+    display:flex;
+    width: 100%;
+    height: 88vh;
+}
+
+.slide-2-Uwatch {
+    width: 50%;
+    height: 88vh;
+    background-image: url(image/promo_apple_watch_ultra2_order__dyxqj5ia98om_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5rem;
+}
+
+.slide-2-Uwatch img{
+    width: 10vw;
+}
+
+.slide-2-Uwatch p {
+    color: #333;
+    font-size: 1.2rem;
+}
+.slide-2-mac {
+    width: 50%;
+    height: 88vh;
+    background-image: url(image/promo_macbook_air_15_midnight__3zojl1nanrme_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5rem;
+}
+
+.slide-2-mac-text h1{
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.slide-2-mac-text p{
+    color: #333;
+    font-size: 1.4rem;
+}
+
+/*Slide-3*/
+.slide-3{
+    display:flex;
+    width: 100%;
+    height: 88vh;
+}
+
+.slide-3-ipods {
+    width: 50%;
+    height: 88vh;
+    background-image: url(image/promo_airpods_pro_order__d8xv36p4uwae_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5rem;
+}
+
+.slide-3-ipods-text h1 {
+    font-size: 2.2rem;
+}
+
+.slide-3-ipods-text p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.slide-3-iphone {
+    width: 50%;
+    height: 88vh;
+    background-image: url(image/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5rem;
+}
+
+.slide-3-iphone-text img{
+    width: 12vw;
+}
+
+.slide-3-iphone-text p {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+/*ent-slider*/
+.ent-slider{
+    width: 100%;
+    height: 80vh;
+    margin: 1.5rem 0;
+}
+
+   .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+   .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* .slider {
+   
+  } */
+
+  /*footer*/
+  .footer{
+    display: flex;
+   align-items: center;
+   
+    flex-direction: column;
+    width: 100%;
+    height: 135vh;
+    background-color: whitesmoke;
+  }
+
+  .para{
+    width: 70%;
+    font-size: 0.9rem;
+    color: rgb(132, 132, 132);
+    margin-top: 1rem;
+  }
+
+   .Click {
+    color: rgb(132, 132, 132);
+  }
+ .terms1 {
+    color: rgb(132, 132, 132);
+  }
+   .terms2 {
+    color: rgb(132, 132, 132);
+  }
+
+  .hr{
+    width: 70%;
+    margin-top: 1rem;
+  }
+
+  .list{
+    display: flex;
+    gap: 5.8vw;
+
+  }
+  .list a{
+    display: block;
+    text-decoration: none;
+    color:  rgb(132, 132, 132);
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+  }
+
+  .list a:hover,
+  .list a:active{
+    text-decoration: underline;
+  }
+
+  .list h5 {
+    color: rgb(87, 87, 87);
+    margin-top: 0.5rem;
+  }
+
+  .end-para{
+    width:70.5% ;
+    text-align: left;
+    color: rgb(132, 132, 132);
+    font-size: 0.8rem;
+    margin-top: 7vh;
+  }
+
+  .end-para a {
+    color: rgb(48, 185, 239);
+  }
+
+  .hr-2{
+    width: 70.5%;
+    margin-top: 1.5vh;
+  }
+
+  .copyright {
+   display: flex;
+   
+    
+   width: 70.5%;
+    color: rgb(132, 132, 132);
+    font-size: 0.8rem;
+    margin-top: 1.5vh;
+  }
+
+  .copyright p {
+    display: inline;
+  }
+
+    .terms{
+    display: flex;
+    
+    margin-left: 3vw;
+    column-count: 5;
+    column-gap: 1vw;
+    column-rule: 2px solid black;
+    
+  }
+
+  .terms a{
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+  }
+
+  .terms a:hover,
+  .terms a:active{
+    text-decoration: underline;
+  }
+
+  .india {
+    text-decoration: none;
+    color:rgb(132, 132, 132) ;
+    margin-left: 16vw;
+  }
+
+  .india:hover,
+  .india:active {
+    text-decoration: underline;
+  }
+
+  #res-slider{
+    display: none;
+  }
+
+  .foot-menu{
+    display: none;
+  }
+
+  .bharat{
+    display: none;
+  }
+
+  .dropdown-menu{
+    display: none;
+  }
+
+  .landscape-menu{
+    position: absolute;
+    top: -100%;
+    display: flex;
+    gap: 10vw;
+    width: 100%;
+    height: 70vh;
+    padding-left: 10vw;
+    background-color: black;
+    z-index: 25;
+  }
+
+  .landscape-menu h6 {
+    font-size: 0.8rem;
+    color: #9d9d9d;
+  }
+
+  .landscape-menu a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .landscape-menu .shop{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding-top: 6vh;
+    font-size: 1.5rem;
+    
+  }
+
+  
+
+  .landscape-menu .quick-links{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-top: 6vh;
+    font-size: 0.9rem;
+    font-weight:600 ;
+  }
+
+  .landscape-menu .shop-special-stores {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-top: 6vh;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .menu-bars{
+    display: none;
+  }
+
+  @media (max-width: 500px) {
+
+    body{
+      width: 100%;
+      height: 100vh;
+      overflow-x: hidden;
+    }
+    .navbar a{
+        display:none;
+    }
+
+    .label{
+        display: none;
+    }
+
+    .ent-slider{
+      display: none;
+    }
+
+    #res-slider{
+      display: initial;
+    }
+    
+
+    .navbar{
+      height: 10vh;
+      gap: 5vw;
+    }
+
+    .navbar i {
+      font-size: 1.2rem;
+    }
+    .navbar .fa-brands {
+      margin-right: 62vw;
+    }
+
+    /*hero-res*/
+    #hero-res {
+      background-image: url(resimg/1.jpg);
+      height: 75vh;
+    }
+
+    #hero-res h1 {
+      font-size: 1.9rem;
+    }
+
+    #hero-res p{
+      font-size: 1.2rem;
+    }
+
+    #hero-res .link{
+      gap: 4vh;
+    }
+
+    #hero-res .link a{
+      font-size: 1.1rem;
+      color: rgb(19, 165, 222);
+    }
+
+    /*hero-res2*/
+    #hero-res2{
+      background-image: url(resimg/2.jpg);
+      height: 75vh;
+    }
+
+    #hero-res2 h1{
+      font-size: 1.9rem;
+    }
+
+    #hero-res2 p {
+      font-size: 1.2rem;
+    }
+
+    #hero-res2 .link {
+    gap: 4vh;
+    }
+
+    #hero-res2 .link a{
+      font-size: 1.1rem;
+      color: rgb(19, 165, 222);
+    }
+
+    /*slide*/
+    .slide{
+      flex-direction: column;
+      width: 100%;
+      height: 150vh;
+    }
+
+    .slide-ipad{
+      width: 100%;
+      height: 75vh;
+    }
+
+    .slide-ipad h1{
+      font-size: 1.9rem;
+    }
+
+    .slide-ipad p {
+      font-size: 1.2rem;
+    }
+
+    .slide-ipad .link {
+    gap: 4vh;
+    }
+
+    .slide-ipad .link a{
+      font-size: 1.1rem;
+      color: rgb(19, 165, 222);
+    }
+
+    .slide-watch{
+      width: 100%;
+      height: 75vh;
+    }
+
+    .slide-watch img{
+      width: 20vw;
+    }
+
+    .slide-watch p {
+      font-size: 1.2rem;
+    }
+
+    .slide-watch .link {
+    gap: 4vh;
+    }
+
+    .slide-watch .link a{
+      font-size: 1.1rem;
+      color: rgb(19, 165, 222);
+    }
+
+    /*slide-2*/
+    .slide-2{
+      flex-direction: column;
+      width: 100%;
+      height: 150vh;
+    }
+
+    .slide-2-Uwatch{
+      width: 100%;
+      height: 75vh;
+    }
+
+    .slide-2-Uwatch img{
+      width: 20vw;
+    }
+
+    .slide-2-Uwatch p {
+      font-size: 1.2rem;
+    }
+
+    .slide-2-Uwatch .link {
+    gap: 4vh;
+    }
+
+    .slide-2-Uwatch .link a{
+      font-size: 1.1rem;
+      color: rgb(19, 165, 222);
+    }
+
+    .slide-2-mac{
+      width: 100%;
+      height: 75vh;
+    }
+
+    .slide-2-mac h1{
+      font-size: 1.9rem;
+    }
+
+    .slide-2-mac p {
+      font-size: 1.2rem;
+    }
+
+    .slide-2-mac .link {
+    gap: 4vh;
+    }
+
+    .slide-2-mac .link a{
+      font-size: 1.1rem;
+      color: rgb(19, 165, 222);
+    }
+
+    /**slide-3**/
+    .slide-3{
+      flex-direction: column;
+      width: 100%;
+      height: 150vh;
+    }
+
+    .slide-3-ipods{
+      width: 100%;
+      height: 75vh;
+    }
+
+    .slide-3-ipods h1{
+      font-size: 1.9rem;
+    }
+
+    .slide-3-ipods p {
+      font-size: 1.2rem;
+    }
+
+    .slide-3-ipods .link {
+    gap: 4vh;
+    }
+
+    .slide-3-ipods .link a{
+      font-size: 1.1rem;
+      color: rgb(19, 165, 222);
+    }
+
+    .slide-3-iphone{
+      width: 100%;
+      height: 75vh;
+    }
+
+    .slide-3-iphone img{
+      width: 24vw;
+    }
+
+    .slide-3-iphone p {
+      font-size: 1.2rem;
+    }
+
+    .slide-3-iphone .link {
+    gap: 4vh;
+    }
+
+    .slide-3-iphone .link a{
+      font-size: 1.1rem;
+      color: rgb(19, 165, 222);
+    }
+
+    .swiper-slide img {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .list{
+      display: none;
+    }
+
+    .para{
+      width: 94vw;
+      font-size: 0.7rem;
+    }
+
+    .hr-2{
+      display: none;
+    }
+
+    .india{
+      display:none;
+    }
+
+    .hr{
+      width: 94vw;
+      margin-top: 3vh;
+    }
+
+    .footer{
+      min-height: 150vh;
+    }
+
+    .foot-menu{
+      position: relative;
+      width: 90vw;
+      display: initial;
+      margin-top: 3vh;
+    }
+
+    .foot-menu a{
+      position: relative;
+      display: block;
+      text-decoration: none;
+      color: rgb(79, 79, 79);
+      line-height: 4.5vh;
+      font-size: 0.8rem;
+    }
+
+    .foot-menu a i{
+      position: absolute;
+      right: 5vw;
+      margin-top: 2vh;
+      
+    }
+
+   /*  .hr-foot-menu{
+      position: absolute;
+      width: 90vw;
+      
+    } */
+
+    .end-para{
+      width: 90vw;
+      margin-top: 2vh;
+    }
+    
+    .bharat{
+      display: initial;
+      width: 90vw;
+      text-decoration: none;
+      color: rgb(107, 107, 107);
+      margin: 2.5vh 0;
+      font-size: 0.8rem;
+    }
+
+    .copyright{
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+
+    .copyright p{
+      width: 90vw;
+    }
+
+    .terms{
+      justify-content: start;
+      flex-wrap: wrap;
+      gap: 5vw;
+
+      margin-left: 5vw;
+      margin-top: 2vh;
+      width: 94vw;
+      
+      column-rule: 2px solid black;
+    }
+
+    /*Dropdown-menu*/
+    .dropdown-menu{
+      position: absolute;
+      top: -100%;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 90vh;
+      background-color: black;
+      line-height: 6vh;
+      padding-top: 4vh;
+      z-index: 11;
+      transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .dropdown-menu a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: 500;
+      margin-left: 7vw;
+     
+    }
+
+    .dropdown-menu i{
+      position: absolute;
+      right: 4vw;
+      top:4vw;
+
+      color: #fff;
+      font-size: 1.8rem;
+    }
+
+    .landscape-menu{
+      display: none;
+    }
+  }
+  
